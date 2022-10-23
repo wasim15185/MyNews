@@ -6,7 +6,7 @@ class UrlUtil {
   static String getEveryThinkUrl(String topic) {
     var data = "$_baseUrl/everything?q=$topic&apiKey=$API_KEY";
 
-    print(data);
+    // print(data);
 
     return data ;
   }
